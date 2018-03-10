@@ -396,3 +396,71 @@ ul.nav.navbar-nav.navbar-right a:hover {
     color: #323150;
     background-color: transparent;
 }
+
+
+/*===========*/
+
+.dashboard{
+    padding: 40px 0;
+}
+
+.dashboard .media{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.dashboard .media-left,
+.dashboard .media-body{
+    vertical-align: middle;
+}
+
+.dashboard .media-body h4{
+    font-size: 16px;
+}
+
+.dashboard .media-body p{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.dashboard .media-body p a{
+    color: #23527c;
+}
+
+.dashboard .media-body h4 a{
+    color: #000;
+}
+
+.upcoming-events h4 {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.upcoming-events h4 span{
+    padding-right: 5px;
+}
+
+.no-event-block {
+    background-color: #f7f7f7;
+    padding: 15px !important;
+    font-size: 14px;
+}
+
+.dashboard h3{
+    margin-top: 5px;
+}
+
+.create-team-btn {
+    background-color: #282840;
+    border: 1px solid #282840;
+    transition: all 0.5s ease-in;
+    font-family: 'Open Sans';
+}
+
+.create-team-btn:hover {
+    background-color:#e01a22;
+    border-color: #e01a22;
+}
