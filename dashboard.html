@@ -99,7 +99,77 @@
                             </div>
                         </div>
                         <div class="col-md-9">
-                            <h3>My Teams <span class="pull-right"><a href="#" class="btn btn-primary create-team-btn">Create New Team &nbsp;<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span></a></span></h3>
+                            <h3>My Teams <span class="pull-right"><a data-toggle="modal" data-target="#myModal" class="btn btn-primary create-team-btn">Create New Team &nbsp;<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span></a></span></h3>
+
+                            <div class="row space30">
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <a href="#">
+                                            <img src="img/sports_page_image.png" class="img-responsive" alt="...">
+                                            <p>Team</p>
+                                        </a>
+                                        <div class="caption">
+                                            Team Member Name
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <a href="#">
+                                            <img src="img/sports_page_image.png" class="img-responsive" alt="...">
+                                            <p>Team</p>
+                                        </a>
+                                        <div class="caption">
+                                            Team Member Name
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <a href="#">
+                                            <img src="img/sports_page_image.png" class="img-responsive" alt="...">
+                                            <p>Team</p>
+                                        </a>
+                                        <div class="caption">
+                                            Team Member Name
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row space30">
+                                <div class="col-md-12">
+                                    <h3 class="activity-title"><span><i class="fa fa-tasks" aria-hidden="true"></i></span> Activities</h3>
+
+                                    <div class="activity-block">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img class="media-object" src="img/user-image.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Team Member Name</a></h4>
+                                            </div>
+                                        </div>
+                                        <p>Scheduled an event EliteWave Training for team EliteWave.</p>
+                                        <h6>2 years ago</h6>
+                                    </div>
+
+                                    <div class="activity-block">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <img class="media-object" src="img/user-image.png" alt="...">
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Team Member Name</a></h4>
+                                            </div>
+                                        </div>
+                                        <p>Scheduled an event EliteWave Training for team EliteWave.</p>
+                                        <h6>2 years ago</h6>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,6 +222,78 @@
                 </section>
             </footer>
         <!-- Section Footer Ended   -->
+
+        <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal"><span class="fa fa-times"></span></button>
+                            <div class="register_form">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="text-center">Create Team</h3>
+                                    </div>
+                                </div>
+
+                                <form>
+                                    <div class="form-group">
+                                        <label for="team-name">Team Name:</label>
+                                        <input type="text" class="form-control" id="team-name" name="team-name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="club-name">Club Name:</label>
+                                        <input type="text" class="form-control" id="club-name" name="club-name">
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="sport-name">Sport:</label>
+                                                <input type="text" class="form-control" id="sport-name" name="sport-name">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="gender">Gender:</label>
+                                                <select class="form-control" id="gender">
+                                                    <option>Select Age</option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="age-group">Age Group:</label>
+                                                <select class="form-control" id="age-group">
+                                                    <option>Select Age Group</option>
+                                                    <option>15-18</option>
+                                                    <option>19-25</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="address">Address:</label>
+                                        <textarea class="form-control" id="address"></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-default btn-block create_acc">Create</button>
+                                    </div>                              
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

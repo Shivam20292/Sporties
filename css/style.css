@@ -404,7 +404,7 @@ ul.nav.navbar-nav.navbar-right a:hover {
     padding: 40px 0;
 }
 
-.dashboard .media{
+.dashboard .col-md-3 .media{
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
@@ -463,4 +463,49 @@ ul.nav.navbar-nav.navbar-right a:hover {
 .create-team-btn:hover {
     background-color:#e01a22;
     border-color: #e01a22;
+}
+
+.dashboard .thumbnail{
+    padding: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+.dashboard .thumbnail p{
+    padding: 15px 0 !important;
+}
+
+.dashboard .thumbnail .caption{
+    background: #f7f7f7;
+    font-family: 'Open Sans';
+    padding: 20px 10px;
+}
+
+.space30{
+    margin-top: 30px;
+}
+
+.modal .register_form {
+    width: 100%;
+}
+
+h3.activity-title span{
+    padding-right: 10px;
+}
+
+.activity-block {
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 1px #ccc;
+}
+
+.activity-block p{
+    margin: 10px 0 !important;
+    font-size: 14px;
+}
+
+.activity-block h6 {
+    color: #1e202f;
 }
