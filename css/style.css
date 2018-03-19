@@ -481,10 +481,6 @@ ul.nav.navbar-nav.navbar-right a:hover {
     padding: 20px 10px;
 }
 
-.space30{
-    margin-top: 30px;
-}
-
 .modal .register_form {
     width: 100%;
 }
@@ -508,4 +504,362 @@ h3.activity-title span{
 
 .activity-block h6 {
     color: #1e202f;
+}
+
+.view_team .thumbnail h5{
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.view_team .thumbnail .dropdown-menu,
+.gallery-block .dropdown-menu,
+.sync-dropdown .dropdown-menu{
+    left: auto;
+    right: 0;
+}
+
+.member-block {
+    border: 1px solid #ddd;
+}
+
+.member-block h3,.gallery-block h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px 0;
+    margin-left: 15px;
+}
+
+.dashboard.view_team .col-md-3 .media {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;   
+}
+
+.member-block img{
+    width: 40px;
+}
+
+.dashboard.view_team .col-md-3 .media a{
+    display: block;
+    padding: 15px;
+    color: #000;
+}
+
+.dashboard.view_team .col-md-3 .media a:hover{
+    background-color: #e6e6e6;
+}
+
+.dashboard.view_team .col-md-3 .media-heading span{
+    font-size: 12px;
+}
+
+.team-calender .dropdown{
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.event-date{
+    border-top:1px solid #ddd; 
+}
+
+.event-date h3{
+    margin-bottom: 10px;
+}
+
+.event-date h6{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color: #7d7777;
+    font-family: 'Open Sans';
+}
+
+.spacer{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+}
+
+.next-schedule{
+    padding: 5px 15px;
+}
+
+.next-schedule h5 span{
+    color: #7d7777;
+    padding-left: 10px;
+}
+
+p.year-date{
+    font-size: 14px;
+    color: #7d7777;
+    margin: 25px 0 !important;
+}
+
+.gallery-block{
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.stat-block .btn-group.m-0{
+    margin: 0;
+}
+
+.gallery-block .btn-group{
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.demo-droppable {
+    cursor: pointer;
+    width: 100%;
+    background: transparent;
+    color: #aaa;
+    padding: 10px 0;
+    text-align: center;
+    height: 150px;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    margin: 0 auto;
+    border: 2px dashed #aaa;
+}
+
+.upload-file{
+    padding: 0 15px;
+}
+
+.upload-file h2{
+    font-size: 24px;
+}
+
+.stat-block .media img{
+    width: 30px;
+}
+
+.stat-block .media-left,
+.dashboard.event-view .media-left, 
+.dashboard.event-view .media-body{
+    vertical-align: top;
+}
+
+.stat-block .media{
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.dashboard .stat-block .media-body h4 {
+    font-size: 14px;
+}
+
+.stat-block .progress-bar {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.stat-block .progress {
+    height: 15px;
+    margin-bottom: 0px;
+}
+
+.team-attendance-btn{
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 30%;
+    border-right: none;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: #000;
+    padding: 15px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.tab button.active,
+.tab button:hover {
+    background-color: #282840;
+    color: #fff;
+}
+
+.tabcontent {
+    float: left;
+    padding: 20px 15px;
+    width: 70%;
+    border: 1px solid #ddd;
+    height: auto;
+    display: none;
+    min-height: 202px;
+}
+
+.event-view .nav-tabs{
+    border: none;
+    margin-bottom: 10px;
+}
+
+.event-view .nav-tabs a{
+    color: #282840;
+    border: 1px solid #282840;
+}
+
+.event-view .nav-tabs>li.active>a, 
+.event-view .nav-tabs>li.active>a:focus, 
+.event-view .nav-tabs>li.active>a:hover,
+.event-view .nav-tabs>li>a:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #282840;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.empty-block {
+    border: 2px dashed #ccc;
+    font-size: 24px;
+    padding: 60px 15px;
+    text-align: center;
+}
+
+.event-view .activity-block {
+    margin: 0; 
+    border: none; 
+    background-color: #f3eeee;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow:none; 
+}
+
+.event-view .activity-block:last-child{
+    margin-bottom: 0;
+}
+
+.event-view .activity-block p {
+    font-size: 24px;
+    margin: 5px 0 !important;
+}
+
+.dashboard .tabcontent h3{
+    margin-bottom: 30px;
+}
+
+.match-info td>i{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+li.success-response {
+    color: #449444;
+}
+
+li.warning-response {
+    color:#d6514e;
+}
+
+li.question-response {
+    color: #7d7777;
+}
+
+.dashboard .tabcontent h3 a{
+    color: #000;
+    text-transform: uppercase;
+}
+
+.btn-blue{
+    background-color: #282840;
+    border: 1px solid #282840;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: all 0.5s ease-in;
+}
+
+.btn-blue:hover{
+    color: #282840;
+    border: 1px solid #282840;
+    background-color:transparent;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid #282840;
+    color: #282840;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: all 0.5s ease-in;
+}
+
+.btn-transparent:hover{
+    border: 1px solid #282840;
+    background-color: #282840;
+    color: #fff;
+}
+
+.dashboard .tabcontent .btn-group .btn+.btn{
+    margin-left: 15px;
+}
+
+.fc-row.fc-widget-header th{
+    background-color: #282840;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: 100;
+}
+
+.fc-row .fc-content-skeleton td a, 
+.fc-row .fc-helper-skeleton td a{
+    color: #000;
+}
+
+.img-gallery img{
+    position: relative;
+    transition: all 0.8s linear;
+}
+
+.img-gallery:hover img {
+    transform: scale(1.5);
+}
+
+.img-gallery {
+    display: block;
+    height: 172px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery .demo-droppable {
+    margin-bottom: 40px !important;
+    margin-top: 0 !important;
+}
+
+.member-img {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.member-profile h4.name{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.player-info h2{
+    margin-top: 0;
+}
+
+.player-info h2 span{
+    font-size: 16px;
 }
