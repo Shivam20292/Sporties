@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Sporties - Member Profile</title>
+        <title>Sporties - Edit Member Profile</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -68,7 +68,7 @@
                                 	<li><a href="#"><span><i class="fa fa-users" aria-hidden="true"></i></span> Members</a></li>  
                                     <li><a href="#"><span><i class="fa fa-calendar" aria-hidden="true"></i></span> Events</a></li>  
                                     <li><a href="#"><span><i class="fa fa-comments" aria-hidden="true"></i></span> TeamTalk</a></li>  
-                                    <li><a href="#"><span><i class="fa fa-picture-o" aria-hidden="true"></i></span> Gallery</a></li>                                    
+                                    <li><a href="#"><span><i class="fa fa-picture-o" aria-hidden="true"></i></span> Gallery</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
         <!-- Section Header Ended   -->
 
         <!-- Section Dashboard Started -->
-            <section class="dashboard event-view member-profile">
+            <section class="dashboard event-view member-profile edit-profile">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
@@ -86,6 +86,8 @@
                                 <div class="col-md-3 text-center">
                                     <div class="member-img">
                                         <img src="img/member.jpg" class="img-responsive center-block" alt="...">
+                                        <h6>Upload Photo...</h6>
+                                        <input type="file" class="text-center center-block form-control">
                                     </div>
 
                                     <h4 class="name">Player Name</h4>
@@ -93,34 +95,50 @@
                                 </div>
 
                                 <div class="col-md-9">
-                                    <div class="player-info">
-                                        <h2>Player Name <span><i class="fa fa-star" aria-hidden="true"></i></span></h2>
-                                        <h4>Teamtalk Managers</h4>
-                                    </div>
-
-                                    <div class="player-contact-info">
-                                        <h4>Basic Information</h4>
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <tr>
-                                                    <td>Birthday:</td>
-                                                    <td>11/11/11</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Gender:</td>
-                                                    <td>Male</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Favorite Player:</td>
-                                                    <td>XYZ</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Favorite Team:</td>
-                                                    <td>XYZ</td>
-                                                </tr>
-                                            </table>
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">Player Name:</label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" value="Player Name" type="text">
+                                            </div>
                                         </div>
-                                    </div>
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">Birthday:</label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" value="11/11/11" type="date">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">Gender:</label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" value="Male" type="text">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">Favorite Player:</label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" value="XYZ" type="text">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">Favorite Team:</label>
+                                            <div class="col-md-9">
+                                                <input class="form-control" value="XYZ" type="text">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label"></label>
+                                            <div class="col-md-9">
+                                                <input class="btn btn-primary create-team-btn" value="Save Changes" type="button">
+                                                <input class="btn btn-default btn-cancel" value="Cancel" type="reset">
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>

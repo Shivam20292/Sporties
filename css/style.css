@@ -863,3 +863,39 @@ li.question-response {
 .player-info h2 span{
     font-size: 16px;
 }
+
+.player-info h4 {
+    font-size: 14px;
+    color: #b3b3b3;
+    font-family: 'Open sans';
+}
+
+.player-contact-info tr,
+.player-contact-info td{
+    padding: 0;
+    border: 0;
+}
+
+.player-contact-info {
+    margin-top: 30px;
+}
+
+.player-contact-info h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-cancel{
+    background-color: #e01a22;
+    border-color: #e01a22;
+    color: #fff;
+    transition: all 0.5s ease-in;
+    font-family: 'Open Sans';
+    width: 100px;
+}
+
+.btn-cancel:hover{
+    background-color: #282840;
+    border: 1px solid #282840;
+    color: #fff;
+}
